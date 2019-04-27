@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3da8db1c-9821-4ca9-84da-5c732a23e868" name="Default Changelist" comment="" />
+    <list default="true" id="3da8db1c-9821-4ca9-84da-5c732a23e868" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment2/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment2/BankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BankTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/BankTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="62">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -88,10 +90,12 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -109,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest.calculateYearlyInterest">
+  <component name="RunManager" selected="JUnit.BankTest.calculateYearlyInterestSleep">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Assignment2" />
@@ -136,6 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankTest.calculateYearlyInterestSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankTest" />
+      <option name="METHOD_NAME" value="calculateYearlyInterestSleep" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankTest.testCalculateYearlyInterest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankTest.calculateYearlyInterestSleep" />
         <item itemvalue="JUnit.BankTest.calculateYearlyInterest" />
         <item itemvalue="JUnit.BankTest" />
         <item itemvalue="JUnit.BankTest.testCalculateYearlyInterest" />
@@ -166,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556372759172</updated>
       <workItem from="1556372762131" duration="2359000" />
-      <workItem from="1556377191360" duration="30000" />
+      <workItem from="1556377191360" duration="1274000" />
     </task>
     <servers />
   </component>
@@ -183,9 +198,21 @@
     <history-entry file="BankTest_calculateYearlyInterest - 2019.04.27 at 16h 03m 08s.xml">
       <configuration name="BankTest.calculateYearlyInterest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BankTest - 2019.04.27 at 17h 00m 34s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_calculateYearlyInterest - 2019.04.27 at 17h 00m 43s.xml">
+      <configuration name="BankTest.calculateYearlyInterest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_calculateYearlyInterest - 2019.04.27 at 17h 00m 45s.xml">
+      <configuration name="BankTest.calculateYearlyInterest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_calculateYearlyInterestSleep - 2019.04.27 at 17h 22m 53s.xml">
+      <configuration name="BankTest.calculateYearlyInterestSleep" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2389000" />
+    <option name="totallyTimeSpent" value="3633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
@@ -242,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/BankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="62">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
